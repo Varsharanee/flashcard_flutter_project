@@ -21,8 +21,8 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     String value = (_initial * 10).toStringAsFixed(0);
     return Scaffold(
+        backgroundColor: Colors.grey.shade100,
         appBar: AppBar(
-            //leading: Icon(Icons.list, size: 35),
             centerTitle: true,
             title: Text("Flashcards App", style: TextStyle(fontSize: 30)),
             backgroundColor: mainColor,
